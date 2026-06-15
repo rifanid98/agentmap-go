@@ -1,0 +1,14 @@
+---
+description: agentmap ranked Go repo map
+alwaysApply: true
+---
+
+Use agentmap for structural questions, not raw string searches.
+
+- **Before grepping**: run `agentmap --any <query>` — routes to package, symbol, or feature.
+- **Blast radius**: `agentmap --relates <pkg>` before editing any package.
+- **Overview**: `agentmap --map` for a token-budgeted digest.
+- **Hubs**: `agentmap --hubs` to see the most-imported packages.
+- **Symbols**: `agentmap --find <name>` to locate an exported symbol.
+
+Fall back to grep only for exact line content not indexed by the map.

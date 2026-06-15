@@ -1,0 +1,28 @@
+#!/bin/sh
+# agentmap — git post-commit hook
+# Auto-rebuilds .claude/agentmap/map.json after each commit (detached + silent).
+# Keep this marker line for --hook-status detection:
+# agentmap — git post-commit hook
+
+REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null)" || exit 0
+GIT_DIR="$(git rev-parse --git-dir 2>/dev/null)" || exit 0
+
+# Skip rebuild during multi-commit operations.
+for f in rebase-merge rebase-apply; do
+  [ -e "$GIT_DIR/$f" ] && exit 0
+done
+for f in MERGE_HEAD CHERRY_PICK_HEAD BISECT_LOG REVERT_HEAD; do
+  [ -e "$GIT_DIR/$f" ] && exit 0
+done
+
+# Locate the agentmap binary.
+RUNNER=""
+if [ -z "$AGENTMAP_HOOK_NO_LOCAL" ] && [ -x "$REPO_ROOT/agentmap" ]; then
+  RUNNER="$REPO_ROOT/agentmap"
+elif command -v agentmap >/dev/null 2>&1; then
+  RUNNER="agentmap"
+fi
+[ -z "$RUNNER" ] && exit 0
+
+(cd "$REPO_ROOT" && $RUNNER > /dev/null 2>&1) &
+exit 0
