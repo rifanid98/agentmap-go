@@ -1,4 +1,4 @@
-module github.com/rifanid/agentmap
+module github.com/rifanid/agentmap-go
 
 go 1.25.0
 

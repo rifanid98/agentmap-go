@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/rifanid/agentmap/internal/assets"
-	"github.com/rifanid/agentmap/internal/install"
+	"github.com/rifanid/agentmap-go/internal/assets"
+	"github.com/rifanid/agentmap-go/internal/install"
 )
 
 const (

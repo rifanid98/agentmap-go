@@ -15,7 +15,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/rifanid/agentmap/internal/model"
+	"github.com/rifanid/agentmap-go/internal/model"
 )
 
 // MapPath is the cache location relative to the workspace root.

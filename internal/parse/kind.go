@@ -4,7 +4,7 @@ import (
 	"go/ast"
 	"go/token"
 
-	"github.com/rifanid/agentmap/internal/model"
+	"github.com/rifanid/agentmap-go/internal/model"
 )
 
 // collectFunc appends an exported func/method symbol. A method (Recv != nil) is

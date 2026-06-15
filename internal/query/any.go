@@ -3,7 +3,7 @@ package query
 import (
 	"strings"
 
-	"github.com/rifanid/agentmap/internal/model"
+	"github.com/rifanid/agentmap-go/internal/model"
 )
 
 const contentLinesLimit = 40

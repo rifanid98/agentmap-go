@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/rifanid/agentmap/internal/parse"
+	"github.com/rifanid/agentmap-go/internal/parse"
 )
 
 func writeFile(t *testing.T, path, content string) string {
