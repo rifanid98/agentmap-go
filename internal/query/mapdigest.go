@@ -5,8 +5,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/rifanid/agentmap-go/internal/model"
-	"github.com/rifanid/agentmap-go/internal/rank"
+	"github.com/rifanid98/agentmap-go/internal/model"
+	"github.com/rifanid98/agentmap-go/internal/rank"
 )
 
 const (

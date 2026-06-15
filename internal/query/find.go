@@ -3,7 +3,7 @@ package query
 import (
 	"strings"
 
-	"github.com/rifanid/agentmap-go/internal/model"
+	"github.com/rifanid98/agentmap-go/internal/model"
 )
 
 // FindResult is the result of --find.

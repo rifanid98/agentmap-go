@@ -4,7 +4,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/rifanid/agentmap-go/internal/graph"
+	"github.com/rifanid98/agentmap-go/internal/graph"
 )
 
 func TestPageRankEmpty(t *testing.T) {

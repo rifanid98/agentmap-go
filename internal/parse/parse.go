@@ -13,7 +13,7 @@ import (
 	"go/token"
 	"os"
 
-	"github.com/rifanid/agentmap-go/internal/model"
+	"github.com/rifanid98/agentmap-go/internal/model"
 )
 
 // ImportSpec is one import line: its local binding (Alias) and the import path.

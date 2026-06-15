@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/rifanid/agentmap-go/internal/resolve"
+	"github.com/rifanid98/agentmap-go/internal/resolve"
 )
 
 // makeFixture creates a minimal go.work monorepo in a temp dir.

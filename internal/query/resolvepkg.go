@@ -5,7 +5,7 @@ package query
 import (
 	"strings"
 
-	"github.com/rifanid/agentmap-go/internal/model"
+	"github.com/rifanid98/agentmap-go/internal/model"
 )
 
 // ResolvePackage maps a query string to a package key in PREFERENCE order:

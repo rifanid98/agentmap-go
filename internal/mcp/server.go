@@ -10,10 +10,10 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/rifanid/agentmap-go/internal/build"
-	"github.com/rifanid/agentmap-go/internal/model"
-	"github.com/rifanid/agentmap-go/internal/query"
-	"github.com/rifanid/agentmap-go/internal/rank"
+	"github.com/rifanid98/agentmap-go/internal/build"
+	"github.com/rifanid98/agentmap-go/internal/model"
+	"github.com/rifanid98/agentmap-go/internal/query"
+	"github.com/rifanid98/agentmap-go/internal/rank"
 )
 
 const protocolVersion = "2024-11-05"

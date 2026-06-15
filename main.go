@@ -9,13 +9,13 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/rifanid/agentmap-go/internal/build"
-	"github.com/rifanid/agentmap-go/internal/hooks"
-	"github.com/rifanid/agentmap-go/internal/install"
-	"github.com/rifanid/agentmap-go/internal/mcp"
-	"github.com/rifanid/agentmap-go/internal/model"
-	"github.com/rifanid/agentmap-go/internal/query"
-	"github.com/rifanid/agentmap-go/internal/rank"
+	"github.com/rifanid98/agentmap-go/internal/build"
+	"github.com/rifanid98/agentmap-go/internal/hooks"
+	"github.com/rifanid98/agentmap-go/internal/install"
+	"github.com/rifanid98/agentmap-go/internal/mcp"
+	"github.com/rifanid98/agentmap-go/internal/model"
+	"github.com/rifanid98/agentmap-go/internal/query"
+	"github.com/rifanid98/agentmap-go/internal/rank"
 )
 
 const version = "0.1.0"

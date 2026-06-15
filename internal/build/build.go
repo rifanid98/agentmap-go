@@ -12,13 +12,13 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/rifanid/agentmap-go/internal/cache"
-	"github.com/rifanid/agentmap-go/internal/feature"
-	"github.com/rifanid/agentmap-go/internal/graph"
-	"github.com/rifanid/agentmap-go/internal/model"
-	"github.com/rifanid/agentmap-go/internal/parse"
-	"github.com/rifanid/agentmap-go/internal/rank"
-	"github.com/rifanid/agentmap-go/internal/resolve"
+	"github.com/rifanid98/agentmap-go/internal/cache"
+	"github.com/rifanid98/agentmap-go/internal/feature"
+	"github.com/rifanid98/agentmap-go/internal/graph"
+	"github.com/rifanid98/agentmap-go/internal/model"
+	"github.com/rifanid98/agentmap-go/internal/parse"
+	"github.com/rifanid98/agentmap-go/internal/rank"
+	"github.com/rifanid98/agentmap-go/internal/resolve"
 )
 
 const (

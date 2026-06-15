@@ -3,8 +3,8 @@ package query
 import (
 	"sort"
 
-	"github.com/rifanid/agentmap-go/internal/graph"
-	"github.com/rifanid/agentmap-go/internal/model"
+	"github.com/rifanid98/agentmap-go/internal/graph"
+	"github.com/rifanid98/agentmap-go/internal/model"
 )
 
 const relatedLimit = 10

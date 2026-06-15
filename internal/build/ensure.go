@@ -1,9 +1,9 @@
 package build
 
 import (
-	"github.com/rifanid/agentmap-go/internal/cache"
-	"github.com/rifanid/agentmap-go/internal/model"
-	"github.com/rifanid/agentmap-go/internal/resolve"
+	"github.com/rifanid98/agentmap-go/internal/cache"
+	"github.com/rifanid98/agentmap-go/internal/model"
+	"github.com/rifanid98/agentmap-go/internal/resolve"
 )
 
 // Root returns the workspace root for startDir (go.work dir, nearest go.mod

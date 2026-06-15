@@ -3,7 +3,7 @@ package install_test
 import (
 	"testing"
 
-	"github.com/rifanid/agentmap-go/internal/install"
+	"github.com/rifanid98/agentmap-go/internal/install"
 )
 
 func TestStripJSONComments(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/rifanid/agentmap-go/internal/assets"
+	"github.com/rifanid98/agentmap-go/internal/assets"
 )
 
 // Platform describes where a skill file is installed.

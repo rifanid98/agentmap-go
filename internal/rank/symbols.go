@@ -5,8 +5,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/rifanid/agentmap-go/internal/graph"
-	"github.com/rifanid/agentmap-go/internal/model"
+	"github.com/rifanid98/agentmap-go/internal/graph"
+	"github.com/rifanid98/agentmap-go/internal/model"
 )
 
 // Symbols builds the Aider-style identifier graph from the package map and
